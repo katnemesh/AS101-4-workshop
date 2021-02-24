@@ -167,7 +167,7 @@ TALISMAN_DEBUG=true .git/hooks/pre-commit
 
 Which should output some talisman debug info.
 
-### Ansible (Required for [Secrets](instructions/04_secrets.md) exercise)
+## Ansible (Required for [Secrets](instructions/04_secrets.md) exercise)
 
 There are two options to install ansible. Note that ansible installation is time-consuming (can take half an hour or more).
 a) Installing ansible globally. For this you can go and follow [instructions](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#from-pip) specified on the ansible official site. 
