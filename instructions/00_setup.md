@@ -69,12 +69,11 @@ The `pwd` command will output your current directory.
 
 ## Git Authentication
 
-There are several ways you can clone this repository. The default is https (remote url looks like `https://github.com/ThoughtWorksInc/AS101-4-workshop.git`) but you can also use ssh (remote looks like `git@github.com:ThoughtWorksInc/AS101-4-workshop.git`). You can check which one your are using with `git remote -v`
+There are several ways you can clone this repository. The default is https (remote url looks like `https://github.com/ThoughtWorksInc/AS101-4-workshop.git`) but you can also use ssh (remote looks like `git@github.com:ThoughtWorksInc/AS101-4-workshop.git`). You can check which one your are using with `git remote -v`.
 
-If you are using an SSH origin, and have multiple git accounts, you may want to review [these instructions](https://sites.google.com/thoughtworks.com/infosec-hub/awareness-deprecated/git-account-segregation) on git account segregation.
+If you are using an SSH origin and have multiple git accounts, you may want to review [these instructions](https://sites.google.com/thoughtworks.com/infosec-hub/awareness-deprecated/git-account-segregation) on git account segregation.
 
 If you are using an HTTPS origin, ensure you have an access token which has the following scopes:
-
 - repo
 - workflows
 
@@ -86,7 +85,7 @@ To see the sample app running, run the following terminal command:
 
 `docker-compose up --build`
 
-Then in your browser go to `localhost:8000`
+Then in your browser go to `localhost:8000`.
 
 If everything is working, you should be able to submit basic messages to the site, and they will
 show up in the messages feed.
@@ -105,11 +104,11 @@ It works by using git hooks in the local copy of the source code you are working
 Talisman on your local copy of a repository won't affect other users of the same repository, however
 if you have other git hooks installed, there are extra steps required for them to all play nicely.
 
-If you don't know whether you already have Talisman installed, you can check using [these instructions](#testing-talisman-installed-correctly)
+If you don't know whether you already have Talisman installed, you can check using [these instructions](#testing-talisman-installed-correctly).
 
 If you're not sure about Talisman, you can install it
 [on each repository individually](#installation-to-a-single-project). There are also instructions to
-[install it globally](#installation-as-a-global-hook-template)
+[install it globally](#installation-as-a-global-hook-template).
 
 You will need to use one of these sets of instructions to install talisman into the `as101-4-workshop`
 repo so that we can scan it for secrets in the exercises.
